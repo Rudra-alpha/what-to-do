@@ -15,9 +15,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (tasks.length > 0) {
-      localStorage.setItem("task", JSON.stringify(tasks));
-    }
+    localStorage.setItem("task", JSON.stringify(tasks));
   }, [tasks]);
 
   function AddTask() {
