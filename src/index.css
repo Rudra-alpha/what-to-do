@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@layer utilities {
+  .text-glow {
+    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
