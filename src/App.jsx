@@ -70,7 +70,8 @@ function App() {
         {/* image-start */}
         <div className="w-[80%]h-[40vh] md:w-[30%] md:h-auto flex flex-col justify-start items-center pl-3">
           <img
-            src="/public/mascott.png"
+            img
+            src="/mascott.png"
             alt="No Image Found"
             className="hover:scale-105 transition-all duration-300 ease-in-out"
           />
@@ -96,7 +97,8 @@ function App() {
           >
             <div className="flex items-center gap-3">
               <img
-                src="../public/dont-wait.png"
+                img
+                src="/dont-wait.png"
                 alt="To-Do Icon"
                 className="h-30 w-30 object-contain" // Adjust size here if needed
               />
